@@ -27,21 +27,21 @@ Las figuras son las mostradas en la imagen:
 
 Ahora se describiran las fórmulas de las figuras anteriormente vistas:
 
-+ **Cuadrado:** *** l<sup>2 ***
++ **Cuadrado:** ***l<sup>2***
 
-+ **Rectángulo:** *** la * lb ***
++ **Rectángulo:** ***la * lb***
 
-+ **Rombo:** *** (D · d) / 2 ***
++ **Rombo:** ***(D · d) / 2***
 
 + **Romboide:** ***b · h***
 
-+ **Trapecio:** *** ((B + b) · h) / 2 ***
++ **Trapecio:** ***((B + b) · h) / 2***
 
-+ **Pentágono:** *** (P · a) / 2 ***
++ **Pentágono:** ***(P · a) / 2***
 
-+ **Circulo:** *** &pi; · r<sup>2 ***
++ **Circulo:** ***&pi; · r<sup>2***
 
-+ **Triángulo:** *** (b · h) / 2 ***
++ **Triángulo:** ***(b · h) / 2***
 
 ### Identificación de elementos similares <a name=id3></a>
 
