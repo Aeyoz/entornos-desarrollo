@@ -82,6 +82,7 @@ Para que los calculos realizados tengan resultados lógicos se tendrán en cuent
 
 Teniendo las reglas anteriores en cuenta ahora el resultado de la operación deberá ser mostrado por pantalla al usuario.
 
+----
 
 ### 4. Anexo <a name=id4></a>
 
@@ -101,3 +102,5 @@ d = Diagonal menor
 a = Apotema
 
 ```
+
+
