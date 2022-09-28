@@ -16,9 +16,13 @@
   - [3. Introducción y comprobación de datos introducidos <a name="id3"></a>](#3-introducción-y-comprobación-de-datos-introducidos-)
   - [4. Anexo <a name=id4></a>](#4-anexo-)
 
+----
+
 ### 1. Descripción del problema <a name=id1></a>
 
 Se pide la realización de una aplicación que pueda resolver el area de 8 tipos de figuras geométricas diferentes. La aplicación debe de permitirle al usuario elegir que forma quiere calcular y además debe permitirle introducir los datos manualmente para que los calculos a realizar sean acordes a las necesidades del usuario.
+
+----
 
 ### 2. Tipos de figuras y sus fórmulas <a name=id2></a>
 
@@ -44,6 +48,8 @@ Ahora se describirán las fórmulas de las figuras anteriormente vistas:
 
 + **Triángulo:** ***(b · h) / 2***
 
+----
+
 #### 2.1 Identificación de elementos similares en las fórmulas <a name=id2-1></a>
 
 En las fórmulas de las figuras anteriormente descritas se pueden encontrar similitudes en las fórmulas por lo que lo más logico sería agrupar esos casos en el codigo de la aplicación para que al hacer mantenimiento sea más fácil añadir o cambiar elementos, a continuación se verán las similitudes entre las fórmulas:
@@ -51,6 +57,8 @@ En las fórmulas de las figuras anteriormente descritas se pueden encontrar simi
 + La fórmula del cuadrado y del rectángulo se basan en multiplicar lado por lado, por lo que esa fórmula serviría para los 2 casos. 
 
 + En la fórmula del triangulo ((b * h) / 2) la parte superior de la división, es decir la base por la altura es un elemento común en el romboide.
+
+----
 
 ### 3. Introducción y comprobación de datos introducidos <a name="id3"></a>
 
@@ -102,5 +110,3 @@ d = Diagonal menor
 a = Apotema
 
 ```
-
-
