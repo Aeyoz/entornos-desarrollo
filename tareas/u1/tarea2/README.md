@@ -8,12 +8,13 @@
 
 ### ÍNDICE
 
-+ [ETS](#id0)
-+ [1. Descripción del problema](#id1)
-+ [2. Tipos de figuras y sus fórmulas](#id2)
-+ [2.1 Identificación de elementos similares en las fórmulas](#id2-1)
-+ [3. Introducción y comprobación de los datos](#id3)
-+ [Anexo](#id4)
+- [ETS <a name=id0></a>](#ets-)
+  - [ÍNDICE](#índice)
+  - [1. Descripción del problema <a name=id1></a>](#1-descripción-del-problema-)
+  - [2. Tipos de figuras y sus fórmulas <a name=id2></a>](#2-tipos-de-figuras-y-sus-fórmulas-)
+    - [2.1 Identificación de elementos similares en las fórmulas <a name=id2-1></a>](#21-identificación-de-elementos-similares-en-las-fórmulas-)
+  - [3. Introducción y comprobación de datos introducidos <a name="id3"></a>](#3-introducción-y-comprobación-de-datos-introducidos-)
+  - [4. Anexo <a name=id4></a>](#4-anexo-)
 
 ### 1. Descripción del problema <a name=id1></a>
 
