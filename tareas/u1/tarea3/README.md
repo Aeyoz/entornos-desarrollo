@@ -19,7 +19,7 @@
 
 La empresa de Puerto Systems ha recibido un nuevo encargo de software en el que hay que diseñar una aplicación para una tienda que se especializa en vender productos estéticos.
 
-Dicha tienda desea trabajar con software libre y desea expliícitamente que la aplicación sea capaz de cumplir con las siguientes funciones.
+Dicha tienda desea trabajar con software libre y desea expliícitamente que la aplicación sea capaz de cumplir con las siguientes funciones <a name=idfunciones></a>:
 
 + Proporcionar facturas de las ventas.
 + Llevar la cuenta de lo que vende cada trabajador.
@@ -29,7 +29,7 @@ Dicha tienda desea trabajar con software libre y desea expliícitamente que la a
 + El tiempo de respuesta de la aplicación ha de ser lo menor posible.
 + No se podrán procesar dos peticiones a la vez, aunque haya varios equipos funcionando simultáneamente.
 
-La empresa además de lo anteriormente expuesto desea almacenar la siguiente informacion de sus trabajadores y productos:
+La empresa además de lo anteriormente expuesto desea almacenar la siguiente informacion de sus trabajadores y productos: 
 
 + Trabajadores:
 
@@ -51,10 +51,8 @@ La empresa además de lo anteriormente expuesto desea almacenar la siguiente inf
 
 ### Análisis inicial de la información <a name=id2></a>
 
-La aplicación del cliente necesitará que en su desarrollo se tenga en cuenta la creación de las siguientes opciones o funcionalidades:
+La aplicación del cliente necesitará que en su desarrollo se tenga en cuenta la creación de las funcionalidades descritas en el [apartado anterior](#idfunciones):
 
-+ Facturación de los productos.
-+ Conteo de productos vendidos por trabajador.
 
 El cliente en cuestión requerirá de una base de datos simple que pueda almacenar 2 tablas de información separadas que no interactuan la una con la otra debido a que no hay ningún campo de las 2 que se relacionen.
 
