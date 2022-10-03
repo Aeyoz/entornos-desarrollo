@@ -11,7 +11,7 @@
 + [ETS](#id0)
 + [Descripción del problema](#id1)
 + [Análisis inicial de la información](#id2)
-+ [](#id3)
++ [Diseño y modelo de vida de la aplicación](#id3)
 + [](#id4)
 + [](#id5)
 
@@ -53,8 +53,23 @@ La empresa además de lo anteriormente expuesto desea almacenar la siguiente inf
 
 La aplicación del cliente necesitará que en su desarrollo se tenga en cuenta la creación de las funcionalidades descritas en el [apartado anterior](#idfunciones):
 
+El cliente en cuestión requerirá de una base de datos que pueda almacenar los datos anteriormente expuestos de los clientes y de los productos, además se deberá de crear una tercera tabla en la base de datos que almacene la clave primaria de las 2 tablas anteriores, esta tabla servirá para almacenar la cantidad de productos vendidos por cada empleado. Se creará una vista que lleve un recuento de los items vendidos en el día para que a final de este se reste esa cantidad a los productos totales de la tienda. La vista sería algo así:
 
-El cliente en cuestión requerirá de una base de datos simple que pueda almacenar 2 tablas de información separadas que no interactuan la una con la otra debido a que no hay ningún campo de las 2 que se relacionen.
+|Items|
+|----|
+|Nº de Items totales|
+|Nº de Items vendidos|
+|Nº de Items restantes|
+
++ Los Items totales equivaldría al resultado de una consulta a la Tabla de productos en la columna de Cantidad.
+
++ Los Items vendidos sería un **count()** de la tabla que se debe crear de productos vendidos por los empleados.
+
++ El tercer campo de la tabla sería una resta de los Items totales - los Items vendidos.
+
+Además se tendrá un **trigger o procedimiento** que después de cada día reemplace el valor **Cantidad** de la tabla **Productos** con el valor de **Items Restantes** de la **Vista Items**
+
+Para poder operar con códigos de barras
 
 ### Diseño y modelo de vida de la aplicación <a name=id3></a>
 
