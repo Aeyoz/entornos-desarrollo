@@ -8,18 +8,23 @@
 
 ### ÍNDICE
 
-+ [ETS](#id0)
-+ [Descripción del problema](#id1)
-+ [Tipos de figuras y sus fórmulas](#id2)
-+ [Identificación de elementos similares](#id2-2)
-+ [Introducción y comprobación de los datos](#id3)
-+ [Anexo](#id4)
+- [ETS <a name=id0></a>](#ets-)
+  - [ÍNDICE](#índice)
+  - [1. Descripción del problema <a name=id1></a>](#1-descripción-del-problema-)
+  - [2. Tipos de figuras y sus fórmulas <a name=id2></a>](#2-tipos-de-figuras-y-sus-fórmulas-)
+    - [2.1 Identificación de elementos similares en las fórmulas <a name=id2-1></a>](#21-identificación-de-elementos-similares-en-las-fórmulas-)
+  - [3. Introducción y comprobación de datos introducidos <a name="id3"></a>](#3-introducción-y-comprobación-de-datos-introducidos-)
+  - [4. Anexo <a name=id4></a>](#4-anexo-)
 
-### Descripción del problema <a name=id1></a>
+----
+
+### 1. Descripción del problema <a name=id1></a>
 
 Se pide la realización de una aplicación que pueda resolver el area de 8 tipos de figuras geométricas diferentes. La aplicación debe de permitirle al usuario elegir que forma quiere calcular y además debe permitirle introducir los datos manualmente para que los calculos a realizar sean acordes a las necesidades del usuario.
 
-### Tipos de figuras y sus fórmulas <a name=id2></a>
+----
+
+### 2. Tipos de figuras y sus fórmulas <a name=id2></a>
 
 Las figuras entre las que el usuario podrá elegir son las mostradas en la siguiente imagen:
 
@@ -43,7 +48,9 @@ Ahora se describirán las fórmulas de las figuras anteriormente vistas:
 
 + **Triángulo:** ***(b · h) / 2***
 
-### Identificación de elementos similares en las fórmulas <a name=id2-2></a>
+----
+
+#### 2.1 Identificación de elementos similares en las fórmulas <a name=id2-1></a>
 
 En las fórmulas de las figuras anteriormente descritas se pueden encontrar similitudes en las fórmulas por lo que lo más logico sería agrupar esos casos en el codigo de la aplicación para que al hacer mantenimiento sea más fácil añadir o cambiar elementos, a continuación se verán las similitudes entre las fórmulas:
 
@@ -51,7 +58,9 @@ En las fórmulas de las figuras anteriormente descritas se pueden encontrar simi
 
 + En la fórmula del triangulo ((b * h) / 2) la parte superior de la división, es decir la base por la altura es un elemento común en el romboide.
 
-### Introducción y comprobación de datos introducidos <a name="id3"></a>
+----
+
+### 3. Introducción y comprobación de datos introducidos <a name="id3"></a>
 
 Después de que el usuario haya introducido manualmente la figura de la que desea hallar el area el programa deberá mostrar una pantalla en la que le permita introducir los datos de la figura indicando que parametros corresponderán a que parte de la figura, se muestra un ejemplo en texto a continuación:
 
@@ -81,22 +90,23 @@ Para que los calculos realizados tengan resultados lógicos se tendrán en cuent
 
 Teniendo las reglas anteriores en cuenta ahora el resultado de la operación deberá ser mostrado por pantalla al usuario.
 
+----
 
-### Anexo <a name=id5></a>
+### 4. Anexo <a name=id4></a>
 
 ```
 Leyenda:
 
-l = lado
-la = lado a
-lb = lado b
-B = base grande
-b = base chiquita
-h = altura (height)
-P = perímetro
-r = radio
-D = diagonal mayor
-d = diagonal menor
-a = apotema
+l = Lado
+la = Lado a
+lb = Lado b
+B = Base grande
+b = Base chiquita
+h = Altura (height)
+P = Perímetro
+r = Radio
+D = Diagonal mayor
+d = Diagonal menor
+a = Apotema
 
 ```
