@@ -31,15 +31,66 @@ Dicha tienda desea trabajar con software libre y desea expliícitamente que la a
 
 La empresa además de lo anteriormente expuesto desea almacenar la siguiente informacion de sus trabajadores y productos: 
 
+<table>
+<tr><td>
+
+|Trabajadores|
+|--|
+|DNI|
+|Nombre|
+|Apellidos|
+|Nº de la seguridad social|
+|Fecha de nacimiento|
+|Teléfono|
+|Localidad|
+
+
+</td><td>
+
+|Productos| 
+|--|
+|Código|
+|Marca|
+|Nombre|
+|Precio|
+|Cantidad|
+
+</td>
+<td>
+
+|Items Vendidos| 
+|--|
+|Código|
+|Marca|
+|Nombre|
+
+</td> 
+
+<td>
+
+|Vista | 
+|--|
+|Código|
+|Marca|
+|Nombre|
+|Precio|
+|Cantidad|
+
+</td> 
+
+</tr>
+</table>
+
+
 + Trabajadores:
 
-    * DNI
-    * Nombre
-    * Apellidos
+    * DNI                       
+    * Nombre                   
+    * Apellidos                
     * Nº de la seguridad social
-    * Fecha de nacimiento
-    * Teléfono
-    * Localidad
+    * Fecha de nacimiento      
+    * Teléfono                 
+    * Localidad                
 
 + Productos:
 
