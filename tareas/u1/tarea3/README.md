@@ -34,8 +34,8 @@ La empresa además de lo anteriormente expuesto desea almacenar la siguiente inf
 <table>
 <tr><td>
 
-|Trabajadores|
-|--|
+|   Trabajadores   |
+|------------------|
 |DNI|
 |Nombre|
 |Apellidos|
@@ -47,70 +47,42 @@ La empresa además de lo anteriormente expuesto desea almacenar la siguiente inf
 
 </td><td>
 
-|Productos| 
-|--|
-|Código|
-|Marca|
-|Nombre|
-|Precio|
-|Cantidad|
+| Productos | 
+|-----------|
+|  Código  |
+|  Marca   |
+|  Nombre  |
+|  Precio  |
+| Cantidad |
 
 </td>
 <td>
 
-|Items Vendidos| 
-|--|
-|Código|
-|Marca|
-|Nombre|
+|  Recuento de Items  | 
+|---------------------|
+| Nº de Items Totales |
+|Nº de Items Vendidos |
+|Nº de Items Restantes|
 
 </td> 
 
 <td>
 
-|Vista | 
-|--|
-|Código|
-|Marca|
-|Nombre|
-|Precio|
-|Cantidad|
+|  Items por empleado | 
+|---------------------|
+|   Id del Empleado   |
+|   Id del producto   |
 
 </td> 
 
 </tr>
 </table>
 
-
-+ Trabajadores:
-
-    * DNI                       
-    * Nombre                   
-    * Apellidos                
-    * Nº de la seguridad social
-    * Fecha de nacimiento      
-    * Teléfono                 
-    * Localidad                
-
-+ Productos:
-
-    * Código
-    * Marca
-    * Nombre
-    * Precio
-    * Cantidad
-
 ### Análisis inicial de la información <a name=id2></a>
 
 La aplicación del cliente necesitará que en su desarrollo se tenga en cuenta la creación de las funcionalidades descritas en el [apartado anterior](#idfunciones):
 
 El cliente en cuestión requerirá de una base de datos que pueda almacenar los datos anteriormente expuestos de los clientes y de los productos, además se deberá de crear una tercera tabla en la base de datos que almacene la clave primaria de las 2 tablas anteriores, esta tabla servirá para almacenar la cantidad de productos vendidos por cada empleado. Se creará una vista que lleve un recuento de los items vendidos en el día para que a final de este se reste esa cantidad a los productos totales de la tienda. La vista sería algo así:
-
-|Items|
-|----|
-|Nº de Items totales|
-|Nº de Items vendidos|
-|Nº de Items restantes|
 
 + Los Items totales equivaldría al resultado de una consulta a la Tabla de productos en la columna de Cantidad.
 
