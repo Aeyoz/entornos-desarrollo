@@ -12,7 +12,7 @@
 + [Descripción del problema](#id1)
 + [Análisis inicial de la información](#id2)
 + [Diseño y modelo de vida de la aplicación](#id3)
-+ [](#id4)
++ [Codificación de la aplicación](#id4)
 + [](#id5)
 
 ### Descripción del problema <a name=id1></a>
@@ -82,7 +82,23 @@ La empresa además de lo anteriormente expuesto desea almacenar la siguiente inf
 
 La aplicación del cliente necesitará que en su desarrollo se tenga en cuenta la creación de las funcionalidades descritas en el [apartado anterior](#idfunciones):
 
-El cliente en cuestión requerirá de una base de datos que pueda almacenar los datos anteriormente expuestos de los clientes y de los productos, además se deberá de crear una tercera tabla en la base de datos que almacene la clave primaria de las 2 tablas anteriores, esta tabla servirá para almacenar la cantidad de productos vendidos por cada empleado. Se creará una vista que lleve un recuento de los items vendidos en el día para que a final de este se reste esa cantidad a los productos totales de la tienda. La vista sería algo así:
++ El cliente debe de disponer a su disposición alguna página que muestre las facturas que se le hayan realizado a los clientes suyos, una factura ejemplo mostraría lo siguiente:
+
+```
++----------------------+
+|       Factura        |
++----------------------+
+|   Vendedor = Miguel  |
++----------------------+
+|   Producto = Pincel  |
++----------------------+
+|    Precio = 2.5 €    |
++----------------------+
+|Precio + IVA = 2.675 €|
++----------------------+
+```
+
++ Para todo lo relacionado con los productos y los empleados el cliente en cuestión requerirá de una base de datos que pueda almacenar los datos anteriormente expuestos de los clientes y de los productos, además se deberá de crear una tercera tabla en la base de datos que almacene la clave primaria de las 2 tablas anteriores, esta tabla servirá para almacenar la cantidad de productos vendidos por cada empleado. Se creará una vista que lleve un recuento de los items vendidos en el día para que a final de este se reste esa cantidad a los productos totales de la tienda. La vista sería algo así:
 
 + Los Items totales equivaldría al resultado de una consulta a la Tabla de productos en la columna de Cantidad.
 
@@ -92,9 +108,25 @@ El cliente en cuestión requerirá de una base de datos que pueda almacenar los 
 
 Además se tendrá un **trigger o procedimiento** que después de cada día reemplace el valor **Cantidad** de la tabla **Productos** con el valor de **Items Restantes** de la **Vista Items**
 
-Para poder operar con códigos de barras
++ Para poder operar con códigos de barras se tendría que aplicar algún tipo de lector de códigos de barras.
+
++ Para poder operar con los precios de los artículos de la tienda habría que construir algún tipo de función que obtenga los valores del precio de cada artículo para que se pueda operar con ellos, a continuación se muestra un ejemplo de 2 productos cullo precio ha sido multiplicado:
+
+```
+
+operaciones_precios(productoA,productoB):
+        multiplicacion = productoA * ProductoB
+        return multiplicacion
+
+```
+
++ Para que la aplicación tenga el menor tiempo de respuesta posible debe estár lo mayor optimizada posible. 
+
++ Para que no se puedan realizar 2 peticiones a la vez se deberá de tener algún tipo de administrador de sesiones para que cuando uno de los usuarios esté realizando algún tipo de petición el otro no pueda.
 
 ### Diseño y modelo de vida de la aplicación <a name=id3></a>
+
+A la hora de actualizar o programar la aplicación se debe de hacer a 
 
 ### Codificación de la aplicación <a name=id4></a>
 
