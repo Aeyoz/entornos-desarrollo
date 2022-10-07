@@ -1,4 +1,4 @@
-## Ejercicio de una Puerto Systems <a name=id0></a>
+## Ejercicio de Puerto Systems <a name=id0></a>
 
 **Nombre:** Ayoze Hernández Díaz.
 
@@ -8,14 +8,13 @@
 
 ### ÍNDICE
 
-- [<a name=id0></a>](#)
+- [Ejercicio de Puerto Systems](#)
   - [ÍNDICE](#índice)
   - [Descripción y análisis del problema <a name=id1></a>](#descripción-y-análisis-del-problema-)
   - [Diseño de la aplicación <a name=id2></a>](#diseño-de-la-aplicación-)
   - [Modelo de vida de la aplicación <a name=id3></a>](#modelo-de-vida-de-la-aplicación-)
   - [Codificación de la aplicación <a name=id4></a>](#codificación-de-la-aplicación-)
-  - [<a name=id5></a>](#-1)
-
+  
 ### Descripción y análisis del problema <a name=id1></a>
 
 La empresa de Puerto Systems ha recibido un nuevo encargo de software en el que hay que diseñar una aplicación para una tienda que se especializa en vender productos estéticos.
