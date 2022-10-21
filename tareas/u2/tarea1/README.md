@@ -9,14 +9,14 @@
 ### ÍNDICE
 
 + [Manipulación de repositorios en Git](#id0)
-+ [](#id1)
-+ [](#id2)
-+ [](#id3)
-+ [](#id4)
-+ [](#id5)
-+ [](#id6)
-+ [](#id7)
-+ [](#id8)
++ [Introducción](#id1)
++ [Tareas](#id2)
++ [Tarea: Configuración](#id3)
++ [Tarea: Creación de un repositorio](#id4)
++ [Tarea: Comprobar el estado del repositorio](#id5)
++ [Tarea: Realizando Commit's](#id6)
++ [Tarea: Modificación de ficheros](#id7)
++ [Tarea: Historial](#id8)
 
 ### Introducción <a name=id1></a>
 
@@ -30,7 +30,6 @@ Antes de empezar con el resto de las tareas, lo principal es configurar quienes 
 
 ![Imagen1](./img/001.png)
 
-
 ### Tarea: Creación de un repositorio <a name=id4></a>
 
 Creamos la carpeta contenedora del repositorio y ejecutamos git init.
@@ -41,12 +40,11 @@ Nos sale una advertencia que nos suguiere que escojamos el nombre que queremos u
 
 ![Imagen1-1](./img/001-1.png)
 
-### Tarea: Comprobar el restado del repositorio <a name=id5></a>
+### Tarea: Comprobar el estado del repositorio <a name=id5></a>
 
 Ahora toca comprobar el estado del repositorio y hacer cambios a este mismo. Para esto comprobaremos primeramente el estado del repositorio; acto seguido se crea el fichero indice.txt y añadimos los 2 primeros capítulos y se vuelve a comprobar el estado del repositorio con **git status**.
 
 ![Imagen3](./img/003.png)
-
 
 ### Tarea: Realizando Commit's <a name=id6></a>
 
