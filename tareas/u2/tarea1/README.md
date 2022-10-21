@@ -11,12 +11,12 @@
 + [Manipulación de repositorios en Git](#id0)
 + [Introducción](#id1)
 + [Tareas](#id2)
-+ [Tarea: Configuración](#id3)
-+ [Tarea: Creación de un repositorio](#id4)
-+ [Tarea: Comprobar el estado del repositorio](#id5)
-+ [Tarea: Realizando Commit's](#id6)
-+ [Tarea: Modificación de ficheros](#id7)
-+ [Tarea: Historial](#id8)
+  + [Tarea: Configuración](#id3)
+  + [Tarea: Creación de un repositorio](#id4)
+  + [Tarea: Comprobar el estado del repositorio](#id5)
+  + [Tarea: Realizando Commit's](#id6)
+  + [Tarea: Modificación de ficheros](#id7)
+  + [Tarea: Historial](#id8)
 
 ### Introducción <a name=id1></a>
 
