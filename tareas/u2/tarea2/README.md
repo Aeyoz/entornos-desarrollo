@@ -125,14 +125,14 @@ Mostramos un historico de los cambios.
 
 ## ANEXO <a name=ANEXO></a>
 
-+ git add: Añade los nuevos ficheros y cambios realizados al commit
-+ git commit -m "Mensaje de ejemplo": Guarda los cambios realizados con un mensaje descriptivo
-+ git commit -a: Añade automaticamente los ficheros que hayan sido modificados o borrados sin afectar a los nuevos ficheros que hayan sido creado desde el ultimo push
-+ git branch *Nombre de rama nueva*: Crea una rama nueva en el proyecto en el que estemos trabajando.
-  + git branch -d: Borra la rama del nombre indicado.
-+ git switch o git checkout *Nombre de la rama a la que se desea desplazar*: Cambia entre ramas en el proyecto.
-+ git log: Muestra un historico de los commits que han sido realizados.
-  + git log --graph --all --oneline: Muestra todos los cambios realizados con una representación gráfica de las ramas en el lado izquierdo del output y los muestra de manera ordenada
-+ git diff: Muestra las diferencias entre 2 commits/merges/archivos o versiones de algo en el repositorio.
-+ git annotate: Sirve para ver cada una de las lineas que han sido modificadas en un archivo, viendo además quién es el autor de esas modificaciones.
-+ git merge *Nombre del repositorio*: Compara los archivos que contienen 2 ramas y las intenta fusionar.
++ **git add:** Añade los nuevos ficheros y cambios realizados al commit
++ **git commit -m "Mensaje de ejemplo":** Guarda los cambios realizados con un mensaje descriptivo
++ **git commit -a:** Añade automaticamente los ficheros que hayan sido modificados o borrados sin afectar a los nuevos ficheros que hayan sido creado desde el ultimo push
++ **git branch ***Nombre de rama nueva*****: Crea una rama nueva en el proyecto en el que estemos trabajando.
+  **+ git branch -d:** Borra la rama del nombre indicado.
++ **git switch o git checkout ***Nombre de la rama a la que se desea desplazar*****: Cambia entre ramas en el proyecto.
++ **git log:** Muestra un historico de los commits que han sido realizados.
+  **+ git log --graph --all --oneline:** Muestra todos los cambios realizados con una representación gráfica de las ramas en el lado izquierdo del output y los muestra de manera ordenada
++ **git diff:** Muestra las diferencias entre 2 commits/merges/archivos o versiones de algo en el repositorio.
++ **git annotate:** Sirve para ver cada una de las lineas que han sido modificadas en un archivo, viendo además quién es el autor de esas modificaciones.
++ **git merge ***Nombre del repositorio*****: Compara los archivos que contienen 2 ramas y las intenta fusionar.
