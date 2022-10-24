@@ -8,7 +8,7 @@
 
 ### ÍNDICE
 
-+ [ETS](#id0)
++ [Manipulación avanzada de repositorios en Git](#id0)
 + [Tareas](#id1)
   + [Ejercicio 1](#id2)
   + [Ejercicio 2](#id3)
