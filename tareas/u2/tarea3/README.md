@@ -10,22 +10,21 @@
 
 + [Manipulación Avanzada en Git trabajo con tags y ramas.](#id0)
 + [Tareas](#id1)
-+ [Tarea 1: Creación del repositorio y Readme inicial](#id2)
-+ [Tarea 2 y 3: Commit y push inicial](#id3)
-+ [Tarea 4: Ignorar archivos](#id4)
-+ [Tarea 5, 6 y 7: Añadir fichero 1, creación del tag v0.1 y subida del mismo](#id5)
-+ [Tarea 8: Crear una rama v0.2](#i6)
-+ [Tarea 9: Añadir fichero 2](#id7)
-+ [Tarea 10: Crear rama remota](#id8)
-+ [Tarea 11: Merge directo](#id9)
-+ [Tarea 12: Merge con conflicto](#id10)
-+ [Tarea 13: Listado de cambios](#id11)
-+ [ANEXO](#ANEXO)
+  + [Tarea 1: Creación del repositorio y Readme inicial](#id2)
+  + [Tarea 2 y 3: Commit y push inicial](#id3)
+  + [Tarea 4: Ignorar archivos](#id4)
+  + [Tarea 5, 6 y 7: Añadir fichero 1, creación del tag v0.1 y subida del mismo](#id5)
+  + [Tarea 8: Crear una rama v0.2](#i6)
+  + [Tarea 9: Añadir fichero 2](#id7)
+  + [Tarea 10: Crear rama remota](#id8)
+  + [Tarea 11: Merge directo](#id9)
+  + [Tarea 12: Merge con conflicto](#id10)
+  + [Tarea 13: Listado de cambios](#id11)
+ + [ANEXO](#ANEXO)
 
 ### Tareas <a name=id1></a>
 
-
-### Tarea 1: Creación del repositorio y Readme inicial <a name=id2></a>
+## Tarea 1: Creación del repositorio y Readme inicial <a name=id2></a>
 
 Creamos el repositorio de nuestro ***Proyecto Millonario*** en Github y nos lo bajamos con git clone.
 
@@ -35,13 +34,13 @@ Ahora editamos el fichero [README](https://github.com/ElPayo/mi-proyecto-millona
 
 ![](./img/002.png)
 
-### Tarea 2 y 3: Commit incial <a name=id3></a>
+## Tarea 2 y 3: Commit incial <a name=id3></a>
 
 Ahora guardamos los cambios con git add y git commit. Acto seguido realizaremos tanto el push como el commit iniciales.
 
 ![](./img/003.png)
 
-### Tarea 4: Ignorar archivos <a name=id4></a>
+## Tarea 4: Ignorar archivos <a name=id4></a>
 
 Ahora debemos crear el fichero .gitignore en el que especificaremos los archivos y carpetas que no queremos que se suban al repositorio en la nube, en nuestro caso no queremos que se suban **privado.txt** ni **privada/**
 
