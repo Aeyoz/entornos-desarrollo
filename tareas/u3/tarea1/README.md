@@ -48,3 +48,6 @@ La segunda se hace mediante la creación de un fichero bash en el que se le adju
 
 ![](./img/008.png)
 
+Cuando miramos la versión con **java --version** aparece el siguiente error:
+
+![](./img/009.png)
