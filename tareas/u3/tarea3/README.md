@@ -30,7 +30,9 @@ Comprobamos que la instalación se ha realizado correctamente.
 ### Instalación de una versión concreta <a name=id2></a>
 
 Para poder instalar otra versión de netbeans primero se debe eliminar la anterior con **sudo snap remove netbeans**.
-Acto seguido debemos de ejecutar **wget https://archive.apache.org/dist/netbeans/netbeans/12.5/Apache-NetBeans-12.5-bin-linux-x64.sh** para descargar el archivo de la versión exacta de Netbeans, en este caso la version 12.5.
+Acto seguido debemos de ejecutar el siguiente comando para descargar el Netbeans 12.5:
+
+```wget https://archive.apache.org/dist/netbeans/netbeans/12.5/Apache-NetBeans-12.5-bin-linux-x64.sh```
 
 ![](./img/004.png)
 
