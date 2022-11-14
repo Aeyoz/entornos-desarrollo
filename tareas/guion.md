@@ -1,4 +1,4 @@
-## ETS <a name=id0></a>
+# ETS <a name=id0></a>
 
 **Nombre:** [Ayoze Hernández Díaz.](https://github.com/ElPayo)
 
@@ -6,7 +6,7 @@
 
 **Asignatura:** Entornos de desarrollo.
 
-### ÍNDICE
+## ÍNDICE
 
 + [ETS](#id0)
 + [](#id1)
