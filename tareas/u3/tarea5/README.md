@@ -9,10 +9,10 @@
 ## ÍNDICE
 
 + [Instalación de IntelliJ](#id0)
-+ [](#id1)
-+ [](#id2)
++ [Instalación del IDE IntelliJ](#id1)
++ [Manera alternativa de instalar IntelliJ](#id2)
 
-###  <a name=id1></a>
+### Instalación del IDE IntelliJ <a name=id1></a>
 
 Comprobamos primeramente la versión de Java que tengamos en la máquina.
 
