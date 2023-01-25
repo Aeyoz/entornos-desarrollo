@@ -10,8 +10,24 @@
 
 + [ETS](#id0)
 + [Especificaciones de actores](#id1)
-+ [Especificaciones de los casos de uso](#id2)
-
+  + [Cliente](#id2)
+  + [Sistema de cobro](#id3)
+  + [Repartidor](#id4)
++ [Especificaciones de los casos de uso](#id5)
+  + [Realizar pedidos](#id6)
+  + [Registrase](#id7)
+  + [Aumentar créditos](#id8)
+  + [Pedido simple](#id9)
+  + [Pedido compuesto](#id10)
+  + [Tiene tarjeta/saldo](#id11)
+  + [Comprobar cobros pendientes](#id12)
+  + [Hacer cobro](#id13)
+  + [Cobro rechazado](#id14)
+  + [Cobro aceptado](#id15)
+  + [Prepara pedido](#id16)
+  + [Se entrega pedido](#id17)
+  + [Cambio estado pedido](#id18)
+  
 ----
 <strong>
 <details>
