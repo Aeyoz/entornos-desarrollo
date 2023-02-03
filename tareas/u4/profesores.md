@@ -68,7 +68,7 @@
 | Actor | Administrador | 
 | ----- | ------- | 
 | Descripcion | Es un usuario con permisos superiores en la aplicación  | 
-| Caracteristicas | Ninguna en especial | 
+| Caracteristicas |  | 
 | Relaciones | Se relaciona con el profesor | 
 | Referencias | Usa el CU15 | 
 | Notas |  | 
