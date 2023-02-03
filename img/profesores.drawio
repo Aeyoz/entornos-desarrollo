@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-03T14:38:17.879Z" agent="5.0 (X11; Ubuntu)" etag="eAA30CLjtDPXiXLx9mH7" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-03T14:38:43.247Z" agent="5.0 (X11; Ubuntu)" etag="Er5ebjdryGFZATRPCDSa" version="20.8.13" type="github">
   <diagram name="Página-1" id="47JntAUj07N4KFNGcbqV">
     <mxGraphModel dx="1434" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -253,6 +253,12 @@
         </mxCell>
         <mxCell id="utRplFWxe3lZBOq130cA-6" value="&lt;div&gt;CU10&lt;/div&gt;Dar de baja" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="760" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="utRplFWxe3lZBOq130cA-9" value="&amp;lt;extend&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="685" y="65" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="utRplFWxe3lZBOq130cA-10" value="&amp;lt;extend&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="685" y="105" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
