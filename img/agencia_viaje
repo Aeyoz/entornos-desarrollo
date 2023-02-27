@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T18:10:06.334Z" agent="5.0 (X11; Ubuntu)" etag="EXCs_ah4TCuwZqMC_BwT" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T18:11:01.631Z" agent="5.0 (X11; Ubuntu)" etag="EcY5BPTcWF3aU8S55ARS" version="20.8.23" type="github">
   <diagram name="Página-1" id="uNvZKIZHLjUpMnQZNNAR">
     <mxGraphModel dx="2620" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
         <mxCell id="JdSMhsF9FctJAinWYd9K-25" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=0;shadow=0;strokeWidth=2;" parent="1" source="JdSMhsF9FctJAinWYd9K-21" target="JdSMhsF9FctJAinWYd9K-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JdSMhsF9FctJAinWYd9K-21" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+        <mxCell id="JdSMhsF9FctJAinWYd9K-21" value="viajero" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-530.0799999999999" y="510" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="JdSMhsF9FctJAinWYd9K-22" value="- Código turista&#xa;- Tipo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="JdSMhsF9FctJAinWYd9K-21" vertex="1">
@@ -166,7 +166,7 @@
           <mxGeometry y="26" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="AL4pqM0GW25x5PPiIJvI-24" value="1..1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="640" width="40" height="30" as="geometry" />
+          <mxGeometry x="-360" y="640" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AL4pqM0GW25x5PPiIJvI-26" value="1..1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="320" y="450" width="40" height="30" as="geometry" />
