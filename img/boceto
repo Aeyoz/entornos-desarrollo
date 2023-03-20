@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2023-03-20T18:21:50.803Z" agent="5.0 (X11; Ubuntu)" version="21.0.8" etag="lMiVHOX9NfbMoaFK0cpp" type="github"><diagram name="Página-1" id="ubCgxtC0pEwWlhW1fgzL">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-20T18:28:13.212Z" agent="5.0 (X11; Ubuntu)" etag="qXnq_bVVtkmTcbtFGy8c" version="21.0.8" type="github">
+  <diagram name="Página-1" id="ubCgxtC0pEwWlhW1fgzL">
+    <mxGraphModel dx="1434" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="npKVQQ7cUXGQPK0GKYal-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="npKVQQ7cUXGQPK0GKYal-1" target="npKVQQ7cUXGQPK0GKYal-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npKVQQ7cUXGQPK0GKYal-1" value="Usuario promedio" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="npKVQQ7cUXGQPK0GKYal-4" value="MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="720" y="120" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="npKVQQ7cUXGQPK0GKYal-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="npKVQQ7cUXGQPK0GKYal-6" target="npKVQQ7cUXGQPK0GKYal-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npKVQQ7cUXGQPK0GKYal-6" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="260" y="220" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="npKVQQ7cUXGQPK0GKYal-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="npKVQQ7cUXGQPK0GKYal-7" target="npKVQQ7cUXGQPK0GKYal-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npKVQQ7cUXGQPK0GKYal-7" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="460" y="220" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="npKVQQ7cUXGQPK0GKYal-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="npKVQQ7cUXGQPK0GKYal-7" target="npKVQQ7cUXGQPK0GKYal-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npKVQQ7cUXGQPK0GKYal-8" value="&lt;div&gt;Backend&lt;/div&gt;API (Python)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="250" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="npKVQQ7cUXGQPK0GKYal-9" value="Frontend" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="255" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npKVQQ7cUXGQPK0GKYal-10" value="Google Services" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="330" width="200" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
